@@ -11,8 +11,8 @@
     <groupId>com.learn.graphqlsecurity</groupId>
     <artifactId>graphql-security</artifactId>
     <version>1.0.0</version>
-    <name>javabacks-secure</name>
-    <description>javabacks-secure</description>
+    <name>graphql-security</name>
+    <description>GraphQL Security Implementation</description>
     <properties>
         <java.version>17</java.version>
     </properties>
