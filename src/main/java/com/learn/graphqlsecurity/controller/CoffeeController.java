@@ -24,13 +24,13 @@ public class CoffeeController
 	public CoffeeController(CoffeeService coffeeService)
 	{
 		this.coffeeService = coffeeService;
-		log.info("All Coffees: {}", coffeeService.findAll());
 	}
 
 	@Secured("ROLE_USER")
 	@QueryMapping(value = "allCoffee")
 	public List<Coffee> findAll()
 	{
+		log.info("All Coffees: {}", coffeeService.findAll());
 		return coffeeService.findAll();
 	}
 
